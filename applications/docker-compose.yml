@@ -61,7 +61,7 @@ services:
     networks:
       - back-tier
 
-  database:
+  db:
     image: postgres:15-alpine
     environment:
       POSTGRES_USER: "postgres"
